@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #efefef;
+  font-style: normal;
+}
+
+fieldset {
+  border: none;
+}
+
+h1,
+h2,
+legend {
+  font-family: "Staatliches", sans-serif;
+}
+
+.header-container {
+  background-color: #535971;
+}
+
+.main-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.main-container h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  padding-top: 100px;
+  margin-bottom: 16px;
+}
+
+.main-container p {
+  font-size: 1.25rem;
+  color: #fff;
+  width: 420px;
+  padding-bottom: 160px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -110px;
+}
+
+.cols-2 {
+  gap: 22px;
+  display: flex;
+
+}
+
+.cols-2 {
+  width: 300px;
+}
+
+.input-fields-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-fields-wrapper label {
+  color: #4e4958;
+  font-size: 0.875rem;
+  margin-top: 16px;
+}
+
+.input-fields-wrapper label span {
+  color: #737178;
+  font-size: 0.75rem;
+}
+
+.input-fields-wrapper input {
+  background-color: #fafafc;
+  border: 1px solid #e6e6f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-fields-wrapper input:focus {
+  outline: 1px solid #535971;
+}
+
+.cols-3 {
+  display: flex;
+  gap: 16px;
+}
+
+.cols-3 input[type="date"] {
+  margin-right: 16px;
+  width: 340px;
+}
+
+form h2 {
+  color: #535971;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 32px;
+  font-weight: 400;
+}
+
+fieldset legend {
+  font-size: 1.5rem;
+  color: #535971;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+}
+
+footer {
+  background-color: #535971;
+  padding: 60px 80px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 120px;
+}
+
+footer input {
+  padding: 15px 40px;
+  background: #ff5374;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  width: 600px;
+}
+
+footer input:hover {
+  background: #d84160;
+  transition: all 0.2s;
+}
